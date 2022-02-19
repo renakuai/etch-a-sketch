@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Etch-a-sketch</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="title">
+    Etch-a-sketch!
+    </div>
+   <div class="content">
+     <div class="slidecontainer">
+        <div class="gridcount">What size grid would you like?</div>
+        <div class="slider">
+          <input type="range" min="10" max="50" value="16" class="slider" id="slider">
+          <div id ="output"></div>
+        </div>
+     </div>
+    <div class="container" id="container">
+    </div>
+    </div>
+  </body>
+</html>

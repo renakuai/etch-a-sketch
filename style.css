@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+.content {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    grid-gap: 24px;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px #000000;
+    border-style: solid;
+}
+.title {
+    width: 900px;
+    display: flex;
+    justify-content:center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.slidecontainer {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 64px;
+    background-color: #EDEDED;
+    height: 100%;
+    padding: 24px;
+}
+.slider {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 12px;
+    width: 225px;
+}
+.gridcount {
+    margin-bottom: 16px;
+    font-weight:400;
+}
+#output {
+    margin-bottom: 8px;
+    color: grey;
+}
+input[type="range"] {
+    width: 300px;
+}
+#row {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    justify-content: center;
+}
+
+#box {
+    flex: 1 1 0;
+    border: 1px #000000;
+    border-style: solid;
+}
+#box:hover {
+    filter: drop-shadow(0 0 10px #E93B84);
+}
